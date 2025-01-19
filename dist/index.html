@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-blue-900 flex justify-center mt-[200px]">
+
+<div class="app w-[90%] bg-white max-w-[600px] rounded-xl p-[30px] ">
+
+    <h1 class="text-5xl">Simple Quiz</h1>
+
+    <div class="borde_r border border-black  mt-2 "></div>
+
+    <div class="quiz">
+
+        <h2 id="question" class="text-3xl mt-[30px]">Question goes here .. </h2>
+
+        <div id="answer-buttons" class="flex flex-col p-2">
+            <button class="btn border border-black transition-all duration-300 hover:bg-black hover:text-white  items-start text-left bg-[#fff] w-[100%] p-[10px] rounded-lg mb-4 mt-3">Answer 1 </button>
+            <button class="btn border border-black transition-all duration-300 hover:bg-black hover:text-white items-start text-left bg-[#fff] w-[100%] p-[10px] rounded-lg mb-4">Answer 2 </button>
+            <button class="btn border border-black transition-all duration-300  hover:bg-black hover:text-white items-start text-left bg-[#fff] w-[100%] p-[10px] rounded-lg mb-4">Answer 3 </button>
+            <button class="btn border border-black transition-all duration-300 hover:bg-black hover:text-white items-start text-left bg-[#fff] w-[100%] p-[10px] rounded-lg ">Answer 4 </button>
+        </div>
+
+        <div class="flex justify-center w-full mt-4 ">
+            <button id="next-btn" class="bg-blue-800 text-white p-3 px-8 rounded-lg transition duration-300 hover:bg-blue-900 hidden">Next</button>
+        </div>
+        
+    </div>
+
+</div>
+    <style>
+        .Correct{
+            background-color: #9aeabc;
+        }
+
+        .Incorrect{
+            background-color: #ff9393;
+        }
+    </style>
+
+<script src="./script.js">
+
+</script>
+</body>
+</html>
